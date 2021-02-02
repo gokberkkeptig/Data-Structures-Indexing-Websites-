@@ -29,6 +29,7 @@ you insert the 9 entries given above you should have the following AVL tree.
 # Functions
 • read_ip_data: This function will mainly process the external file. As an input, it will take
 the file name and it will return an AVL tree and simple BST.
+
 • insert_page: This function will take an AVL tree and a simple BST, a page, and its IP
 address, and then it will try to insert it to the AVL tree and BST seperately. If the page is
 already in the tree, then it will update the existing node with the IP. You cannot again
@@ -36,10 +37,13 @@ make assumptions about the number of IP address here (i.e., you do not know how 
 IP addresses a website has), so make sure that you use a dynamic list (you are
 encouraged to use a linked list here). If the page is not in the AVL tree and BST, then the
 functions will create a new node and add it to the tree.
+
 • display_index: This function will mainly take an AVL tree and BST and display the index
 of the pages in an alphabetical order.
+
 • search_url: This function will mainly take an AVL tree , BST and a page, and will return
 the list of IPs of that page.
+
 • search_ip: This function will mainly take an AVL tree and an IP and BST and an IP, and
 will return the page with that IP.
 
